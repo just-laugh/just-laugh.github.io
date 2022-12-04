@@ -21,6 +21,9 @@
                 color: black;
                 font-family: 'Oxanium', cursive;
             }
+            p {
+                text-align: justify;
+            }
             .text-primary {
                 color:aquamarine !important;
             }
@@ -49,22 +52,25 @@
                 text-decoration: none;
             }
 
-            #center {
-                text-align: center;
-            }
             a:link {
                 text-decoration: none;
             }
 
             .fa {
                 padding: 20px;
+                color: gray;
                 font-size: 30px;
-                width: 30px;
+                width: 70px;
                 text-align: center;
                 text-decoration: none;
                 margin: 5px 2px;
-                border-radius: 50%;
+                border-radius: 25%;
             }
+            .fa:hover {
+                color: rgb(175, 175, 175);
+            }
+
+
         </style>
     </head>
     <body class="container">
@@ -75,7 +81,6 @@
             element.classList.toggle("dark-mode");
             }
         </script>
-
 
         <div class="container">
             <ul class="nav nav-tabs">
@@ -88,27 +93,29 @@
                 
             <div class="tab-content"> 
                 <div id="home" class="tab-pane fade in active">
-                    <br><br>
-                    <h1 class="display-4 mb-5" style="font-family: 'Bowlby One', cursive; font-size: 60pt; text-align: center;">JUST LAUGH</h1>
-                    <br><br>
+                    <br><br><br>
+                    <h1 style="font-family: 'Bowlby One', cursive; font-size: 60pt; text-align: center;">JUST LAUGH</h1>
+                    <h3 style="text-align: center; font-family: 'Luckiest Guy', cursive;">make room for the memes!</h3>
+                    <br><br><br>
                     <section>
-                        <h2 class="d-none" style="text-align: center; font-family: 'Luckiest Guy', cursive;">about us</h2>
-                        <p class="text-justify">While social media is a platform for communication, memes are a way of expressing a culturally-relevant idea. A meme is an image or video that represents the thoughts and feelings of a specific audience. Most memes are captioned photos intended to elicit humor. (woah, what an entrance.)</p>
+                        <h1 class="d-none" style="text-align: center; font-family: 'Luckiest Guy', cursive;">about us</h1>
+                        <p>While social media is a platform for communication, memes are a way of expressing a culturally-relevant idea. A meme is an image or video that represents the thoughts and feelings of a specific audience. Most memes are captioned photos intended to elicit humor. (woah, what an entrance.)</p>
                         <p>Here in Just Laugh, we aim to make you laugh- pfft duh. What do you mean "how"? Use the navigation bar above and scroll through our page full of memes! Have fun~</p>
                         <h2 class="d-none" style="text-align: center; font-family: 'Luckiest Guy', cursive;">about us</h2>
-                        <p class="text-justify">While social media is a platform for communication, memes are a way of expressing a culturally-relevant idea. A meme is an image or video that represents the thoughts and feelings of a specific audience. Most memes are captioned photos intended to elicit humor. (woah, what an entrance.)</p>
+                        <p>While social media is a platform for communication, memes are a way of expressing a culturally-relevant idea. A meme is an image or video that represents the thoughts and feelings of a specific audience. Most memes are captioned photos intended to elicit humor. (woah, what an entrance.)</p>
                         <p>Here in Just Laugh, we aim to make you laugh- pfft duh. What do you mean "how"? Use the navigation bar above and scroll through our page full of memes! Have fun~</p>
 
-                        <div id="center">
-                            <h2 id="contact">Check out Angela's Socials!</h2>
-                            <a href="https://www.facebook.com/profile.php?id=100057034116054" class="fa fa-facebook"></a>
-                            <a href="https://twitter.com/angela_rxsales" class="fa fa-twitter"></a>
+                        <br><br>
+
+                        <div class="text-center">
+                            <h3 style="text-align: center; font-family: 'Luckiest Guy', cursive;">"never gonna give you up~"</h3>
+                            <a id="demo" href="https://www.facebook.com/profile.php?id=100057034116054" class="fa fa-facebook"></a>
+                            <a href="https://www.twitter.com/angela_rxsales" class="fa fa-twitter"></a>
                             <a href="https://www.instagram.com/angela_rxsales/" class="fa fa-instagram"></a>
-                            <a href="https://open.spotify.com/user/3134z7xv5qth3vbbpeppaqluende" class="fa fa-spotify"></a>
-                            <p>school email: lrosales2026@clc.pshs.edu.ph</p>
+                            <p class="text-center">school email: lrosales2026@clc.pshs.edu.ph</p>
                         </div>
 
-                        <div class="container mt-3">          
+                        <div class="container mt-3">
                             <img src="download.jpg" class="rounded" alt="Cinque Terre"> 
                         </div>
                     </section>
